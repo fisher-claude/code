@@ -14,28 +14,28 @@ const relatedPosts: RelatedPost[] = [
     date: 'Feb 20, 2026',
     title: 'Bringing automated preview, review, and merge to Claude Code on desktop',
     category: 'Claude Code',
-    image: '/images/image-3.svg',
+    image: '/code/images/image-3.svg',
     href: 'https://claude.com/blog/preview-review-and-merge-with-claude-code'
   },
   {
     date: 'Mar 3, 2026',
     title: 'Improving skill-creator: Test, measure, and refine Agent Skills',
     category: 'Claude Code',
-    image: '/images/image-4.svg',
+    image: '/code/images/image-4.svg',
     href: 'https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills'
   },
   {
     date: 'Mar 9, 2026',
     title: 'Bringing Code Review to Claude Code',
     category: 'Claude Code',
-    image: '/images/image-1.svg',
+    image: '/code/images/image-1.svg',
     href: 'https://claude.com/blog/code-review'
   },
   {
     date: 'Jan 26, 2026',
     title: 'Your favorite work tools are now interactive connectors inside Claude',
     category: 'Product announcements',
-    image: '/images/image-2.svg',
+    image: '/code/images/image-2.svg',
     href: 'https://claude.com/blog/interactive-tools-in-claude'
   }
 ];

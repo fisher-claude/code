@@ -9,7 +9,7 @@ export function Header() {
   return (
     <div className='border-b border-base-300'>
       <div className='py-5 px-9 flex items-center justify-between mx-auto max-w-[1500px]'>
-        <Image src='/logo.svg' alt='Claude' width={120} height={28} />
+        <Image src='/code/logo.svg' alt='Claude' width={120} height={28} />
         <div className='hidden lg:flex items-center justify-between gap-1'>
           {headerNavData.map((menu) => (
             <NavDropdown key={menu.label} label={menu.label} sections={menu.sections} />

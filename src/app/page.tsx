@@ -22,7 +22,7 @@ export default function Page() {
         <div className='pt-27 pb-32 px-9 mx-auto max-w-[720px]'>
           <div className='bg-primary inline-block rounded-4xl p-5 mb-10'>
             <Image
-              src='/images/money.svg'
+              src='/code/images/money.svg'
               loading='lazy'
               alt='Fisher Pricing'
               width={144}
