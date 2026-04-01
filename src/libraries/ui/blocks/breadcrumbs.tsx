@@ -1,7 +1,7 @@
+import NextLink from 'next/link';
 import { RiArrowLeftLine } from 'react-icons/ri';
 import { ICON_MD } from '../icons/sizes';
 import { ButtonLink } from '../primitives/button-link';
-import { Link } from '../primitives/link';
 import { cn } from '../utils';
 
 export type BreadcrumbsProps = {
@@ -25,9 +25,9 @@ export const Breadcrumbs = ({ back, items, className }: BreadcrumbsProps) => {
         {items.map(({ label, href }) =>
           href ? (
             <li key={href}>
-              <Link href={href} className='text-neutral'>
+              <NextLink href={href} className='text-neutral'>
                 {label}
-              </Link>
+              </NextLink>
             </li>
           ) : (
             <li key={label} className='text-base-title'>
