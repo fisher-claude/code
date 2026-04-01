@@ -1,0 +1,9 @@
+{
+  "root": "src",
+  "rules": [
+    "app/**",
+    "features/**",
+    "libraries/*/**",
+    "styles/*/**"
+  ]
+}
